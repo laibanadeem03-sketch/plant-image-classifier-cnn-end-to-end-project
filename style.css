@@ -1,0 +1,64 @@
+/* 🌿 General Background and Main Container */
+[data-testid="stAppViewContainer"] > .main {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+/* 🪟 Main Content Glass Effect */
+.main .block-container {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    padding: 2rem 3rem;
+}
+
+/* 🌱 Titles and Headings */
+h1 {
+    color: #004d00 !important;
+    text-align: center !important;
+    font-weight: 700 !important;
+}
+
+/* 🧭 Sidebar Styling */
+[data-testid="stSidebar"] {
+    background-color: #f0f2f6 !important;
+    border-right: 2px solid #e0e0e0;
+}
+[data-testid="stSidebar"] * {
+    color: #111 !important;
+}
+
+/* 📂 File Upload Button */
+.stFileUploader > label {
+    font-size: 1.1rem !important;
+    color: #2E8B57 !important;
+    font-weight: bold;
+}
+
+/* 📊 Metric Text */
+.stMetric > label {
+    color: #333 !important;
+    font-weight: bold !important;
+}
+
+/* ✅ & ⚠️ Status Boxes */
+div[data-testid="stAlert"] {
+    border-radius: 12px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* 🌿 Progress Bar */
+[data-testid="stProgressBar"] > div > div {
+    background-color: #2E8B57 !important;
+}
+
+/* 🔍 Expander Content */
+.streamlit-expanderHeader {
+    color: #004d00 !important;
+    font-weight: bold;
+}
